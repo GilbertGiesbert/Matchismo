@@ -74,8 +74,8 @@
 }
 
 
-- (Deck *)createDeck{
-    return [[PlayingCardDeck alloc] init];
+- (Deck *)createDeck{ // abstract
+    return nil;
 }
 
 

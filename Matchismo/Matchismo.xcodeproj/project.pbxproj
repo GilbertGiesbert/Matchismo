@@ -19,6 +19,7 @@
 		7EECEC9367B62A204A35206A /* CardGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EECE44BECDD468A3B0D522E /* CardGameAppDelegate.m */; };
 		7EECED04D337139441DEDE60 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EECEBEA0DE564F0949B3230 /* CardMatchingGame.m */; };
 		7EECEE995A1624D65EDA114A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EECE5395FA8CDCA6FFE5269 /* main.m */; };
+		ECF6FC6A1C88963F00D92A14 /* PlayingCardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF6FC691C88963F00D92A14 /* PlayingCardGameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		7EECEE1468125E35909A3D5A /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
 		7EECEF3AFF340E46CC06EBB0 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
 		7EECEFC90E7B1F25F795FAAC /* MatchismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF6FC681C88963F00D92A14 /* PlayingCardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardGameViewController.h; sourceTree = "<group>"; };
+		ECF6FC691C88963F00D92A14 /* PlayingCardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardGameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				7EECED3E72AADE90007398DF /* LaunchScreen.xib */,
 				7EECE3827CB0655D50428DD7 /* Main.storyboard */,
 				7EECEF3AFF340E46CC06EBB0 /* CardGameViewController.h */,
+				ECF6FC681C88963F00D92A14 /* PlayingCardGameViewController.h */,
+				ECF6FC691C88963F00D92A14 /* PlayingCardGameViewController.m */,
 				7EECEE1468125E35909A3D5A /* CardGameViewController.m */,
 				7EECEF331525709359013FD1 /* Model */,
 			);
@@ -257,6 +262,7 @@
 				7EECE1EFF6A4D3004729D860 /* Deck.m in Sources */,
 				7EECE2C41FBCDF5B9854C4DD /* PlayingCardDeck.m in Sources */,
 				7EECE862A04833085C8A7D2D /* PlayingCard.m in Sources */,
+				ECF6FC6A1C88963F00D92A14 /* PlayingCardGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
