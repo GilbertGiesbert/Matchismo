@@ -271,6 +271,7 @@
                         <viewControllerLayoutGuide type="bottom" id="cqX-88-IBM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QWq-AB-0uO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f7w-08-WP3" customClass="PlayingCardView">
