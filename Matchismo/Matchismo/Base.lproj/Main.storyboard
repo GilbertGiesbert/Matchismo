@@ -277,9 +277,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f7w-08-WP3" customClass="PlayingCardView">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="98" y="130" width="106" height="173"/>
+                                    <rect key="frame" x="94" y="130" width="218" height="351"/>
                                 </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AXI-yz-jDI" appends="YES" id="Tqi-3f-HFK"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
@@ -299,6 +303,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NsQ-fh-pka" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="AXI-yz-jDI">
+                    <connections>
+                        <action selector="swipe:" destination="a9e-VQ-34q" id="PVl-ms-HPN"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="955.5" y="104"/>
         </scene>
